@@ -1,0 +1,105 @@
+/* CSS Document */ 
+@charset "utf-8";
+
+
+
+
+.content-frame{
+    margin-left: 0%;
+    width: 100%;
+    transition: none;
+    animation:  1.5s cframe ease-out;
+
+}
+
+.content-frame.-open{
+    margin-left:50%;
+    transition: all .5s ease-out;
+    position: fixed;
+
+}
+
+
+.sidenav-frame{
+    width:50%;
+    margin-left: -50%;
+    transition: all .5s ease-out;
+    position: fixed;
+
+}
+
+.sidenav-frame.-open{
+    width:50%;
+    margin-left: 0%;
+    transition: all .5s ease-out;
+    position: fixed;
+    
+
+}
+
+#close{
+    width: 45%;
+}
+
+.mainmenu{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    
+    margin-bottom: 40%;
+    
+
+}
+
+
+.proto-container{
+    width: 90%;
+    margin-bottom: 20%;
+    margin-left: 10%;
+}
+
+
+.next-project{
+
+    margin-top: 17%;
+
+    
+}
+
+.next-circle{
+    width: 120px;
+    height: 5px;
+
+}
+
+.next-circle.-expand{
+
+    height: 90px;
+}
+
+.next{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 180%;
+    margin-top: 30%;
+    opacity: 0;
+    transition: ease 1s;
+
+}
+
+.next.-expand{
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 180%;
+    margin-top: 30%;
+    opacity: 1;
+    transition: ease 1s;
+
+}
+
+.next-circle:hover{
+    transition: ease-in .1s;
+    cursor: pointer;
+    border-width: 10px;
+
+}

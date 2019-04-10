@@ -1,0 +1,83 @@
+/* CSS Document */ 
+@charset "utf-8";
+
+/* Fonts */ 
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,900');
+@font-face {
+    font-family: 'ITC';
+    src: url('/fonts/ITCAvantGardeStd-Bold.otf');
+    src: url('/fonts/ITCAvantGardeStd-Bold.eot');
+    src: url('/fonts/ITCAvantGardeStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/ITCAvantGardeStd-Bold.woff2') format('woff2'),
+        url('/fonts/ITCAvantGardeStd-Bold.woff') format('woff'),
+        url('/fonts/ITCAvantGardeStd-Bold.ttf') format('truetype'),
+        url('/fonts/ITCAvantGardeStd-Bold.svg#ITCAvantGardeStd-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
+
+
+/* Body */
+.preload * {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+
+}
+
+
+
+
+/* Navigation Bar */ 
+header{
+    background-color: white;
+    box-shadow: 0 0 5px #ddd;
+    height: 7vh;
+    position: fixed;
+    transition: height .5s ease;
+    width: 100%;
+    z-index: 200;
+}
+
+.nav{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    transition: padding .2s ease;
+    width: auto;
+}
+
+.item{
+    margin-left: 12.5%;
+}
+
+.navs-container{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: flex-end;
+    margin-right: 6.25%;
+    width: 18.75%;
+}
+
+/* Nav Items */ 
+a.item:hover {color:grey;}
+a.item:link {color:black;}
+a.item:visited {color:black;}
+
+a.logo:hover {color:black;}
+a.logo:link {color:black;}
+a.logo:visited {color:black;}
+
+
+.content-frame{
+    padding-top: 21vh;
+    padding-left:10%;
+    padding-right:10%;
+}

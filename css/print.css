@@ -1,0 +1,291 @@
+.print{
+ 
+
+    transition: all .25s linear;
+
+    
+}
+
+.print:hover{
+    transform: rotate(0deg) skew(0deg,-3deg) translate(.1em, -.1em);
+    transition: all .25s linear;
+
+}
+
+.flyer{
+    width:75px;
+    height:100px;
+    position: absolute;
+    background-color: rgba(201,228,231,1);
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+#flyer{
+    width:75px;
+    height:100px;
+    position: absolute;
+    background-color: #5E5C6C;
+    margin-top: 35px;
+    margin-left: 35px;
+    transition: all .25s linear;
+
+}
+
+.print:hover #flyer{
+    margin-top: 30px;
+    margin-left: 30px;
+    transition: all .25s linear;
+
+}
+
+.flyer-content{
+    width:100%;
+    height:100%;
+    padding:2px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flyer-h{
+    width:90%;
+    height:10%;
+    margin-top:5px;
+    background-color: #5E5C6C;
+}
+
+.flyer-hero{
+    width:100%;
+    height:30%;
+    display: flex;
+    padding:1px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.flyer-box{
+    width:65%;
+    height:100%;
+    background-color: #5E5C6C;
+    display: flex;
+
+}
+
+
+
+
+.flyer-text-container{
+    width:100%;
+    height:40%;
+
+}
+
+.flyer-text{
+    width:95%;
+    height:15%;
+    background-color: rgba(0,0,0,1);
+    margin-bottom: 5px;
+
+}
+
+.bcard{
+    width:50px;
+    height:25px;
+    background-color: #BEB8EB;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    margin-top: 80px;
+
+}
+
+
+
+#bcard{
+    width:50px;
+    height:25px;
+    background-color: rgba(255,248,240,1);
+    position: absolute;
+    z-index: 2;
+    margin-top: 80px;
+    transition: all .25s linear;
+
+}
+
+.print:hover #bcard{
+    margin-top: 77px;
+    margin-left: -4px;
+    transition: all .25s linear;
+    background-color: rgba(255,248,240,1);
+
+}
+
+.bcard-content-left{
+    width:50%;
+    height:100%;
+    padding: 3px;
+        
+}
+.b-card-pic{
+    width:100%;
+    height: 100%;
+    background-color: rgba(255,248,240,1);
+    border-radius: 100%;
+}
+
+.bcard-content-right{
+    width:50%;
+    height:100%;
+    padding: 3px;
+}
+
+.bcard-text{
+    width:100%;
+    height:25%;
+    background-color: rgba(255,248,240,1);
+    margin-bottom: 2px;
+}
+
+.magazine{
+    width:175px;
+    height:100px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+    display:flex;
+}
+
+#magazine{
+    width:175px;
+    height:100px;
+    background-color: #0B5563;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+    display:flex;
+    transition: all .25s linear;
+
+}
+
+.print:hover #magazine{
+    margin-top: 5px;
+    margin-left: 10px;
+    transition: all .25s linear;
+
+}
+
+.left{
+    height:100px;
+    width: 87.5px;
+    background-color: rgba(255,248,240,1);
+    box-shadow: inset 0px 0px 0px 5px white;
+    border-right: solid #0B5563;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content{
+    width: 65px;
+    height:50px;
+    background-color: #0B5563;
+    margin-top: -30px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    width:50px;
+    height:25px;
+    background-color: #0B5563;
+    margin-right:5px;
+    margin-top:90px;
+
+    
+}
+
+.column-text{
+    height: 100px;
+    width:30px;
+    margin-left:10px;
+    margin-top:10px;
+    
+
+}
+
+
+
+.column-text-block{
+    width:100%;
+    height: 3px;
+    background-color: #0B5563;
+    margin-bottom: 5px;
+}
+
+.right{
+    height:100px;
+    width: 87.5px;
+    background-color: rgba(255,248,240,1);
+    box-shadow: inset 0px 0px 0px 5px white;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+}
+
+.poster{
+    width:125px;
+    height:160px;
+    background-color: #FBFBFF;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -40px;
+
+}
+
+#poster{
+    width:125px;
+    height:160px;
+    background-color: rgba(52,84,209,1);
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -40px;
+    transition: all .25s linear;
+
+}
+
+.print:hover #poster{
+    margin-top: -1px;
+    margin-left: -46px;
+    transition: all .25s linear;
+
+}
+
+
+.poster-content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.circle{
+    height:100px;
+    width:100px;
+    background-color: rgba(52,84,209,1);
+    border-radius: 100%;
+    margin-top:7px;
+}
+
+.poster-text-block{
+    width:100px;
+    height:8px;
+    background-color: rgba(52,84,209,1);
+    border-radius: 8%;
+}

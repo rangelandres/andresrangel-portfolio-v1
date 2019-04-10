@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+<head>
+    
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+<title>Andres Rangel | Contact</title>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="/js/scripts.js"></script>
+    
+<link rel="stylesheet" type="text/css" href="/css/contact.css">
+<link rel="icon" href="/imgs/favicon.png" type="image/png" />
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+    
+<body class="preload">
+    
+<header>
+    <div class="nav">
+        <div class="logo-container">
+            <a class="logo" href="../index.html"> ar </a>
+        </div>
+        
+        <div class="navs-container">
+            <a class="item" href="/portfolio.html">portfolio</a>
+            <a class="item" href="/contact.html">contact</a>
+        </div>
+    </div>
+</header>
+
+
+
+<div class="content-frame">
+    <div class="success">
+        <div id="circle">
+            
+            <div id="box">
+                <div class="text">
+                    <img id="img" src="imgs/checkmark.png">
+                    <h1>Message sent</h1>
+                
+                </div>
+            </div>
+            
+            <div id="new">
+                <h2>
+                    <a id="link" href="contact.html"> Send another one?</a>
+                </h2>
+            </div>
+            
+        </div>
+    </div>
+    
+    
+    <div class="content">
+        <div class="content-header">
+            <p>Have a question? Feedback? I'd love to hear what you have to say. <br>Send me a message and I will respond as soon as possible.</p>
+        </div>
+
+
+
+        <form class="aForm" method="post" name="contactForm">
+            
+            <div class="name">
+                <input
+                    type="text"
+                    name="name"
+                    id="istyle"
+                    placeholder="Andres Rangel"
+                    pattern="^[a-zA-Z\s]*$"
+                    required>
+                
+                <span>name</span>
+            </div>
+
+            <div class="email">
+
+                <input
+                    requiredtype="email"
+                    id="istyle"
+                    name="email"
+                    placeholder="andres@rangelandres.com"
+                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                    required>
+        
+                <span>email</span>
+            </div>
+
+            <div class="textarea">
+                <textarea type="text" id="istyle" style="text-align: left; padding-left:2%; padding-right: 2%;" placeholder="I am contacting you today in regards of..." name="message" class="text-width" pattern="^[a-zA-Z0-9_.-]*$" required></textarea>
+            </div>
+
+            <input id="enter" type="submit" value="Submit" >
+        </form>
+
+    </div>
+</div>
+ 
+</body>
+    
+</html>
